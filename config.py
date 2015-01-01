@@ -9,11 +9,8 @@ class Config:
     MAIL_SERVER = 'smtp.googlemail.com'
     MAIL_PORT = 587
     MAIL_USE_TLS = True
-    MAIL_USERNAME = 'microblog.dummy@gmail.com'
-    MAIL_PASSWORD = 'microblog$dummy'
     FLASKY_MAIL_SUBJECT_PREFIX = '[Flasky]'
     FLASKY_MAIL_SENDER = 'Flasky Admin <flasky@example.com>'
-    FLASKY_ADMIN = 'madhusudhan638@gmail.com'
     FLASKY_POSTS_PER_PAGE = 20
 
     @staticmethod
